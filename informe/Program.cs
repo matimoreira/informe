@@ -20,7 +20,6 @@ namespace informe
                 } while (aux < 0 || aux > 100);
                 numeros.Add(aux);
             }
-            numeros.Sort();
             Enumerable_numeros = numeros;
             Console.WriteLine("El mas alto es: " + Enumerable_numeros.Max().ToString());
             Console.WriteLine("El mas bajo es: " + Enumerable_numeros.Min().ToString());
